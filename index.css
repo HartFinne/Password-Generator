@@ -1,0 +1,143 @@
+/* Base styling */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+/* Header */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+  color: #38bdf8;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  height: 1px;
+  background-color: #334155; /* soft gray line */
+  margin: 1rem 0;
+}
+
+
+p {
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Input groups */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e293b;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+label {
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  background: #334155;
+  color: #f1f5f9;
+  font-size: 1rem;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #38bdf8;
+  cursor: pointer;
+}
+
+/* Generate button */
+button {
+  background-color: #38bdf8;
+  color: #0f172a;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}
+
+/* Password inputs */
+#password-input-1,
+#password-input-2 {
+  background: #1e293b;
+  border: none;
+  border-radius: 8px;
+  color: #f8fafc;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#password-input-1:hover,
+#password-input-2:hover {
+  background: #334155;
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+  div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  label {
+    font-size: 0.95rem;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #password-input-1,
+  #password-input-2 {
+    font-size: 0.9rem;
+  }
+}
