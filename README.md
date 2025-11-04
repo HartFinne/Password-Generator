@@ -34,13 +34,6 @@ Each password is randomly generated using a mix of lowercase, uppercase, numbers
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](./screenshot.png)
-*(Optional: Add a screenshot of your app here.)*
-
----
-
 ## 🛠️ Setup Instructions
 
 1. Clone this repository:
@@ -73,7 +66,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 ## 👤 Author
-hartfinne
 
 **HartFinne**
 Created as a personal project to practice JavaScript DOM manipulation and front-end design.
