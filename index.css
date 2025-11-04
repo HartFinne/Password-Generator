@@ -115,6 +115,33 @@ button:hover {
   background: #334155;
 }
 
+.tooltip {
+  position: absolute;
+  background: #16a34a;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  animation: fadeInOut 1.5s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(10px); }
+  20% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+/* Make parent container relative so tooltip positions correctly */
+input {
+  position: relative;
+}
+
+
 /* Responsive layout */
 @media (max-width: 480px) {
   div {
