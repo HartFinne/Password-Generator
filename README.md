@@ -5,6 +5,12 @@ This tool allows users to generate random, strong passwords with customizable op
 
 ---
 
+🌐 Live Demo
+
+👉 Try it here: https://hartfinne-password-generator.netlify.app/
+
+---
+
 ## 🚀 Features
 
 * ✅ Generate two random passwords at once
